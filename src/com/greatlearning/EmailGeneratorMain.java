@@ -1,4 +1,8 @@
+package com.greatlearning;
+
 import java.util.Scanner;
+
+import com.greatlearning.businessclass.Employee;
 
 public class EmailGeneratorMain {
 	

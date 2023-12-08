@@ -1,3 +1,6 @@
+package com.greatlearning.businessclass;
+
+import com.greatlearning.businessclass.EmailGeneratorImpl;
 
 public class Employee extends EmailGeneratorImpl{
 	
@@ -5,7 +8,7 @@ public class Employee extends EmailGeneratorImpl{
 	String lastName ;
 	int department;
 	
-	Employee(String fName, String lName , int dep )
+	public Employee(String fName, String lName , int dep )
 	{
 		generateEmailAddress(fName,  lName ,  dep);
 		generatePassword();
